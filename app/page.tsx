@@ -12,7 +12,7 @@ export default function Home() {
       <PizzaBlock />
       {/* <PizzaDescription /> */}
       <h1>Коффе</h1>
-      <PizzaBlock />
+      {/* <PizzaBlock /> */}
     </article>
   );
 }
