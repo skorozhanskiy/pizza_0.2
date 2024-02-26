@@ -79,5 +79,14 @@
     "priceName": "Цена от",
     "price": 539,
     "buttonName": "Выбрать"
+  },
+  {
+    "id": "9",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Мясная",
+    "description": "Цыпленок",
+    "priceName": "Цена от",
+    "price": 539,
+    "buttonName": "Выбрать"
   }
 ]

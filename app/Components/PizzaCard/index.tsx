@@ -24,15 +24,17 @@ export default function PizzaCard({
   return (
     <section className={styles.container}>
       <Image className={styles.images} src={inamesUrl} alt="" priority width={200} height={200} />
-      <h1 className={styles.title}>{title}</h1>
-      <p className={styles.description}>{description}</p>
-      <div className={styles.price}>
-        <h1>
-          <p>{priceName}</p>
-          <span>{price}</span>
-          &#x20bd;
-        </h1>
-        <button className={`${'reset-btn'}  ${styles.button}`}>{buttonName}</button>
+      <div className={styles.info}>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.description}>{description}</p>
+        <div className={styles.price}>
+          <h1>
+            <p>{priceName}</p>
+            <span>{price}</span>
+            &#x20bd;
+          </h1>
+          <button className={`${'reset-btn'}  ${styles.button}`}>{buttonName}</button>
+        </div>
       </div>
     </section>
   );
