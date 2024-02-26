@@ -20,7 +20,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				gap: 3rem;
+				gap: 2rem;
 				overflow-y: scroll;
 
 				padding-top: 3rem;
@@ -44,9 +44,9 @@
 					}
 				}
 				img {
-					width: 100%;
+					width: 90%;
 					margin: 0 auto;
-					margin-left: 10px;
+
 					// object-position: center;
 					// object-fit: cover;
 				}
@@ -127,10 +127,14 @@
 							}
 						}
 						.modal_form_button {
-							background-color: #f3f3f7;
+							background-color: #fff0e6;
 							border-radius: 32px;
 							padding: 1rem 2rem;
 							align-self: center;
+
+							color: #d46313;
+							font-size: 15px;
+							font-weight: 500;
 						}
 					}
 				}
