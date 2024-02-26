@@ -11,6 +11,7 @@ type TypePizzaCart = {
   buttonName: string;
   priceName: string;
   inamesUrl: string;
+  onClick: any;
 };
 
 export default function PizzaCard({
@@ -20,9 +21,10 @@ export default function PizzaCard({
   buttonName,
   priceName,
   inamesUrl,
+  onClick,
 }: TypePizzaCart) {
   return (
-    <section className={styles.container}>
+    <section onClick={onClick} className={styles.container}>
       <Image className={styles.images} src={inamesUrl} alt="" priority width={200} height={200} />
       <div className={styles.info}>
         <h1 className={styles.title}>{title}</h1>
