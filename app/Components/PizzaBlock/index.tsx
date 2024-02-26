@@ -6,9 +6,7 @@ import pizza from '../../assets/data/JSON/pizza.json';
 import PizzaDescription from '../PizzaDescription';
 
 import styles from './pizza-block.module.scss';
-type pizza = {
-  id: number;
-};
+
 const PizzaBlock: React.FC = () => {
   const [openCardId, setOpenCardId] = React.useState<number | boolean>(false);
 
