@@ -35,7 +35,7 @@ export default function PizzaCard({
             <span>{price}</span>
             &#x20bd;
           </h1>
-          <button className={`${'reset-btn'}  ${styles.button}`}>{buttonName}</button>
+          <button className={`${'reset-btn'} ${styles.button} ${'no-select'}`}>{buttonName}</button>
         </div>
       </div>
     </section>

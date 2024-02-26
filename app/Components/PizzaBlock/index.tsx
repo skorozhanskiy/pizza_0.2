@@ -10,13 +10,12 @@ type pizza = {
   id: number;
 };
 const PizzaBlock: React.FC = () => {
-  const [openCardId, setOpenCardId] = React.useState<number | null>(null);
+  const [openCardId, setOpenCardId] = React.useState<number | boolean>(false);
 
-  const handleCardClick = (id: number) => {
+  const handleCardClick = (id: number | boolean) => {
     setOpenCardId(id);
   };
 
-  console.log(openCardId);
   return (
     <section className={styles.container}>
       {pizza.map((obj) => (
@@ -25,7 +24,7 @@ const PizzaBlock: React.FC = () => {
       {openCardId && (
         <div className={styles.modal}>
           <div className={styles.modal_wrapper}>
-            <button onClick={() => handleCardClick(0)} className={styles.modal_button}>
+            <button onClick={() => handleCardClick(false)} className={styles.modal_button}>
               <svg
                 width="25"
                 height="25"
@@ -50,12 +49,12 @@ const PizzaBlock: React.FC = () => {
                 {/* <p>{pizza.find((card) => card.id === openCardId)!.priceName}</p>
           <p>{pizza.find((card) => card.id === openCardId)!.price}</p> */}
               </div>
-              <ul className={styles.modal_size}>
+              <ul className={`${styles.modal_size} ${'no-select'}`}>
                 <li className={styles.modal_size_active}>Маленькая</li>
                 <li>Средняя</li>
                 <li>Большая</li>
               </ul>
-              <ul className={styles.modal_dough}>
+              <ul className={`${styles.modal_dough} ${'no-select'}`}>
                 <li className={styles.modal_dough_active}>Традиционное</li>
                 <li>Тонкое</li>
               </ul>
