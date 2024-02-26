@@ -46,18 +46,25 @@ const PizzaBlock: React.FC = () => {
                 <p className={styles.modal_description}>
                   {pizza.find((card) => card.id === openCardId)!.description}
                 </p>
-                {/* <p>{pizza.find((card) => card.id === openCardId)!.priceName}</p>
-          <p>{pizza.find((card) => card.id === openCardId)!.price}</p> */}
               </div>
-              <ul className={`${styles.modal_size} ${'no-select'}`}>
-                <li className={styles.modal_size_active}>Маленькая</li>
-                <li>Средняя</li>
-                <li>Большая</li>
-              </ul>
-              <ul className={`${styles.modal_dough} ${'no-select'}`}>
-                <li className={styles.modal_dough_active}>Традиционное</li>
-                <li>Тонкое</li>
-              </ul>
+              <form action="" className={styles.modal_form}>
+                <div className={styles.modal_form_sort}>
+                  <ul className={`${styles.modal_size} ${'no-select'}`}>
+                    <li className={styles.modal_size_active}>Маленькая</li>
+                    <li>Средняя</li>
+                    <li>Большая</li>
+                  </ul>
+                  <ul className={`${styles.modal_dough} ${'no-select'}`}>
+                    <li className={styles.modal_dough_active}>Традиционное</li>
+                    <li>Тонкое</li>
+                  </ul>
+                </div>
+                <button
+                  type="button"
+                  className={` ${styles.modal_form_button} ${'reset-btn'} ${'no-select'} `}>
+                  Добавить в корзину
+                </button>
+              </form>
             </div>
           </div>
         </div>

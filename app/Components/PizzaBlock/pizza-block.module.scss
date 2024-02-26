@@ -70,51 +70,70 @@
 							font-weight: 400;
 						}
 					}
-					.modal_size {
+					.modal_form {
 						display: flex;
-						align-items: center;
-						justify-content: space-between;
-						gap: 3px;
-						background-color: #f3f3f7;
-						border-radius: 32px;
-						padding: 3px;
-						li {
-							color: #323232;
-							font-size: 15px;
-							font-weight: 400;
-							cursor: pointer;
-							width: 100%;
-							text-align: center;
-							padding: 5px 10px;
-						}
-						&_active {
-							background-color: #ffffff;
-							border-radius: 32px;
-							box-shadow: #cccccc 0px 0px 20px 0.1px;
-						}
-					}
-					.modal_dough {
-						display: flex;
-						align-items: center;
-						justify-content: space-between;
-						gap: 3px;
-						background-color: #f3f3f7;
-						border-radius: 32px;
-						padding: 3px;
-						li {
-							color: #323232;
-							font-size: 15px;
-							font-weight: 400;
-							cursor: pointer;
-							width: 100%;
+						flex-direction: column;
+						gap: 4rem;
+						.modal_form_sort {
+							display: flex;
+							flex-direction: column;
 
-							text-align: center;
-							padding: 5px 10px;
+							gap: 1rem;
+							.modal_size {
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								gap: 3;
+								background-color: #f3f3f7;
+								border-radius: 32px;
+								padding: 3px;
+								li {
+									color: #323232;
+									font-size: 15px;
+									font-weight: 400;
+									cursor: pointer;
+									width: 100%;
+									text-align: center;
+									padding: 5px 10px;
+								}
+								&_active {
+									background-color: #ffffff;
+									border-radius: 32px;
+									box-shadow: #cccccc 0px 0px 20px 0.1px;
+								}
+							}
+							.modal_dough {
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								background-color: #f3f3f7;
+								border-radius: 32px;
+
+								padding: 3px;
+
+								li {
+									color: #323232;
+									font-size: 15px;
+									font-weight: 400;
+									cursor: pointer;
+									width: 100%;
+
+									text-align: center;
+									padding: 5px 10px;
+								}
+								&_active {
+									background-color: #ffffff;
+									border-radius: 32px;
+									box-shadow: #cccccc 0px 0px 20px 0.1px;
+								}
+							}
 						}
-						&_active {
-							background-color: #ffffff;
+
+						.modal_form_button {
+							background-color: #f3f3f7;
 							border-radius: 32px;
-							box-shadow: #cccccc 0px 0px 20px 0.1px;
+							padding: 1rem 2rem;
+							align-self: center;
 						}
 					}
 				}
