@@ -47,10 +47,11 @@ $cl-selection: rgb(255, 221, 45, 0.32);
 //end-selection
 
 //scrollba
-// ::-webkit-scrollbar {
-// 	width: 0px;
-// }
+::-webkit-scrollbar {
+	width: 0px;
+}
 //end-scrollba
+
 /*- visually-hidden -*/
 .hidden {
 	position: absolute !important;
