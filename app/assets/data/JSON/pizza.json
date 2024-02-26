@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Сырная",
+    "description": "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
+    "priceName": "Цена от",
+    "price": 299,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "1",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Пепперони фреш",
+    "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус",
+    "priceName": "Цена от",
+    "price": 299,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "2",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Двойной цыпленок",
+    "description": "Цыпленок, моцарелла, фирменный соус альфредо",
+    "priceName": "Цена от",
+    "price": 409,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "3",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Ветчина и сыр",
+    "description": "Ветчина, моцарелла, фирменный соус альфредо",
+    "priceName": "Цена от",
+    "price": 409,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "4",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Чоризо фреш",
+    "description": "Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус",
+    "priceName": "Цена от",
+    "price": 299,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "5",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Пицца Жюльен",
+    "description": "Цыпленок, шампиньоны, ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+    "priceName": "Цена от",
+    "price": 539,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "6",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Песто",
+    "description": "Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, фирменный соус альфредо",
+    "priceName": "Цена от",
+    "price": 539,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "7",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Карбонара",
+    "description": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, фирменный соус альфредо, итальянские травы",
+    "priceName": "Цена от",
+    "price": 589,
+    "buttonName": "Выбрать"
+  },
+  {
+    "id": "8",
+    "inamesUrl": "https://i.postimg.cc/sfSdCLyJ/cheese.webp",
+    "title": "Мясная",
+    "description": "Цыпленок, ветчина, пикантная пепперони, острая чоризо, моцарелла, фирменный томатный соус",
+    "priceName": "Цена от",
+    "price": 539,
+    "buttonName": "Выбрать"
+  }
+]
