@@ -40,19 +40,23 @@ const PizzaBlock: React.FC = () => {
             </button>
             <img src={pizza.find((card) => card.id === openCardId)!.inamesUrl} />
             <div className={styles.modal_container}>
-              <div className={styles.modal_title}>
-                <h3>{pizza.find((card) => card.id === openCardId)!.title}</h3>
-                <p>{pizza.find((card) => card.id === openCardId)!.description}</p>
+              <div className={styles.modal_info}>
+                <h1 className={styles.modal_title}>
+                  {pizza.find((card) => card.id === openCardId)!.title}
+                </h1>
+                <p className={styles.modal_description}>
+                  {pizza.find((card) => card.id === openCardId)!.description}
+                </p>
                 {/* <p>{pizza.find((card) => card.id === openCardId)!.priceName}</p>
           <p>{pizza.find((card) => card.id === openCardId)!.price}</p> */}
               </div>
               <ul className={styles.modal_size}>
-                <li>Маленькая</li>
+                <li className={styles.modal_size_active}>Маленькая</li>
                 <li>Средняя</li>
                 <li>Большая</li>
               </ul>
               <ul className={styles.modal_dough}>
-                <li>Традиционное</li>
+                <li className={styles.modal_dough_active}>Традиционное</li>
                 <li>Тонкое</li>
               </ul>
             </div>
