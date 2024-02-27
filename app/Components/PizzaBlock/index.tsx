@@ -3,7 +3,7 @@ import React from 'react';
 import PizzaCard from '../PizzaCard';
 import pizza from '../../assets/data/JSON/pizza.json';
 
-import PizzaDescription from '../PizzaDescription';
+// import PizzaDescription from '../PizzaDescription';
 
 import styles from './pizza-block.module.scss';
 
