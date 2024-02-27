@@ -22,7 +22,9 @@ const PizzaBlock: React.FC = () => {
       {openCardId && (
         <div className={styles.modal}>
           <div className={styles.modal_wrapper}>
-            <button onClick={() => handleCardClick(false)} className={styles.modal_button}>
+            <button
+              onClick={() => handleCardClick(false)}
+              className={`${'reset-btn'} ${styles.modal_button} `}>
               <svg
                 width="25"
                 height="25"
